@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>camera view</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="fabric.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<div class="container">
+<center>
+    <h1>PokeCam</h1>
+<div  class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Camera View</label>
+    <br>
+    <div id="take_pic"></div>
+    <br>
+    <button onclick="preview()" class="btn btn-info">Take Picture</button>
+    <br>
+    <label>Your Filter Color</label>
+    <input type="text" id="example" placeholder="Type Filter Color">
+    <button class="btn btn-warning" onclick="add_filter()">Add Filter</button>
+</div>
+<div  class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div id="result"></div>
+<br>
+</div>
+<button onclick="back_up()" class="btn btn-danger">Back</button>
+<br>
+<button onclick="next_up()" class="btn btn-success">Next</button>
+</center>
+</div>
+    <script src="cam.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Pokeballs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="fabric.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="lost()">
+        <center>
+  <label id="maze">What the Maze!!!</label>
+  <br>
+  <canvas  id="myCanvas" width=500px; height="400"></canvas>
+  <br>
+  <label class="btn btn-danger">NOTE:</label><label id="important">Move trainer with up/right/left/down arrow keys. Reach the pokemon to win and NO CHEATING</label><br><label id="load">Press L key to load the goal/pokemon. Has to be lowercase L</label>
+  <br>
+  <button class="btn btn-danger" onclick="goback()">Back</button>
+  <button class="btn btn-success" onclick="face_forward()">Next</button>
+</center>
+<script src="game.js"></script>
+    </body>
+</html>

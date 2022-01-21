@@ -1,0 +1,102 @@
+#poke{
+    width:900px;
+}
+body{
+    background-color:blue;
+    text-align:center;
+}
+#pokemon{
+    background-image:url("pokenormal.png");
+    background-position:center;
+    background-size:cover;
+    border-radius:10px;
+    height:100px;
+    color:yellow;
+    font-weight:bold;
+}
+#myCanvas{
+        margin-top: 30px;
+        border-width:10px;
+        background-color: white; 
+        border-style:ridge;
+}
+#thebody{
+    background-image:url("back.jfif");
+    background-position:center;
+    background-size:cover;
+    
+}
+#fivstar{
+    font-size:50px ;
+}
+#hi{
+    color:aliceblue;
+}
+#par1{
+    border-radius:40px;
+}
+#logo{
+    border-radius:100px;
+}
+.login_div{
+    background-color:red;
+    margin-left:550px;
+}
+#take_pic,#result{
+    width:250px;
+    height:250px;
+}
+#icon{
+    width:100px;
+    height:100px;
+    position:relative;
+   animation-name:example;
+   animation-duration:5s;
+   animation-iteration-count:infinite;
+}
+@keyframes example{
+    0%{left:500px;top:0px;}
+    25%{left:600px;top:0px;}
+    50%{left:600px;top:20px;}
+    75%{left:500px;top:20px;}
+    100%{left:600px; top:0px;}
+}
+#maze{
+    animation-name:maze;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes maze{
+    to{font-size:75px; color:yellow}
+    from{font-size:20px; color:red}
+}
+#important{
+    color:red;
+}
+#load{
+    font-size:20px;
+    color:red;
+}
+#pokemon_1,#pokemon_2{
+background-image:url("color.jfif");
+border-radius:20px;
+height:200px;
+width:600px;
+background-size:cover;
+font-size:45px;
+text-align:center;
+animation-name:change;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+@keyframes change{
+    from{color:blue;}
+    to{color:red;}
+}
+#lead{
+    width:100%;
+    text-align:center;
+    background-color:red;
+    color:yellow;
+    line-height:2;
+}
